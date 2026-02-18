@@ -1,0 +1,11 @@
+def add(a,b):
+    return a + b
+
+
+def subtract(a, b):
+    return a - b
+
+
+print("Simple Calculator")
+print("5+3 = ", add(5,3))
+print("23-2 = ",subtract(23,2))
