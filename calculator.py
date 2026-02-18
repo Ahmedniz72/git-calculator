@@ -13,9 +13,13 @@ def divide(a, b):
         return "ERROR: Division by zero"
     return a / b
 
+def power(a, b):
+    return a ** b
+
 
 print("Simple Calculator")
 print("5+3 = ", add(5,3))
 print("23-2 = ",subtract(23,2))
 print("6 * 7 =", multiply(6, 7))
 print("20 / 5 =", divide(20, 5))
+print("2 ^ 3 =", power(2, 3))
